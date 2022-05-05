@@ -7,6 +7,128 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <!--Headings-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--Paragpraph-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia quo minima fugiat quas magni dolores cupiditate at repudiandae animi <strong> molestiae, tenetur quam</strong> fuga sapiente assumenda accusamus rem ratione.
+    </p>
+    <p>
+        Lorem ipsum dolor sit<em> amet consectetur </em>adipisicing elit. Deserunt, est esse incidunt doloremque vero sit. Reprehenderit aliquam <a href="http://google.com" target="blank">quasi quas atque</a> recusandae, minima reiciendis voluptate. Tempore sit deleniti aspernatur animi sint.
+    </p>
+
+    <!--List-->
+    <ul>  <!--Unordered list-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <ol> <!--Ordered list-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <!--Table-->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Choi</td>
+                <td>@.com</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>a@.com</td>
+                <td>10</td>
+            </tr><tr>
+                <td>Josh</td>
+                <td>b@.com</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    <hr>
+    <!--Forms-->
+    <form action="process.php" method="POST">
+        <div>
+            <label for="">First Name</label>
+            <input type="text" name="firstName" placeholder="Enter First Name">
+        </div>
+
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label for="">Message</label>
+            <input type="message" name="message">
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Number</label>
+            <input type="number" name="age" value="30">
+        </div>
+
+        <div>
+            <label for="">Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+
+
+    <!--Button-->
+    <button>Click Me</button>
+
+    <br>
+    <!--Image-->
+    <a href="">
+        <img src="Images/HMTLTheory1.png" alt="HTML Thoery" width="200px">
+    </a>
+
+    <!--Quotation-->
+    <blockquote cite="http://trabersymedia.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id dolores voluptatem, unde ipsum temporibus corporis laudantium nemo veniam voluptas ratione repellendus, quisquam consequatur repellat praesentium necessitatibus veritatis deleniti accusantium!
+    </blockquote>
+
+    <p>You need to be <abbr title="As soon as possible">ASAP</abbr></p>
+
+    <p><cite> HTML Crash Course </cite>  by Traversy Media</p>
+
 </body>
 </html>
